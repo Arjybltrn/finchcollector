@@ -1,0 +1,22 @@
+
+{% extends 'base.html' %} {% block content %}
+{%load static %}
+<h1>Finch Details</h1>
+
+<div class="card">
+<table>
+<tr>
+    <td>
+  <div class="card-content">
+    <span class="card-title"><b>{{ finch.name }}</b></span>
+    <p>Breed: {{ finch.breed }}</p>
+    <p>Description: {{ finch.description }}</p>
+    <p>Age: {{ finch.age }}</p>
+  </div>
+  <td>
+    <td>Insert image here </td>
+</tr>
+<table>
+</div>
+
+{% endblock %}
